@@ -13,7 +13,7 @@ export const App = () => {
   const handleSignInWithGoogle = async () => {
     
     if(!user) {
-      await signWithGoogle();
+      await signWithGoogle(); 
     }
 
     navigate('/panel');
